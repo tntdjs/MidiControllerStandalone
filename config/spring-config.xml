@@ -1,0 +1,45 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:aop="http://www.springframework.org/schema/aop"
+  xmlns:context="http://www.springframework.org/schema/context"
+  xsi:schemaLocation="http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+           http://www.springframework.org/schema/aop
+           http://www.springframework.org/schema/aop/spring-aop-2.5.xsd
+           http://www.springframework.org/schema/context
+           http://www.springframework.org/schema/context/spring-context-2.5.xsd">
+
+	<bean id="midiControllerDef" class="com.tntdjs.midi.controllers.MidiControllerDef" >
+		<property name="appHeight" value="215" />			
+		<property name="appWidth" value="330" />	
+
+		<property name="midiControllerPath" value="midi/controllers/akai/lpd8/"/>
+		<property name="midiControllerName" value="LPD8FXScene" />
+		<property name="xmlConfiguration" value="config/midi/controllers/akai/lpd8/LPD8Config.xml" />
+		 					
+		<!--
+		<property name="midiControllerPath" value="midi/controllers/djtt/midifighter/"/>
+		<property name="midiControllerName" value="MIDIFighterFXScene" />	
+		<property name="xmlConfiguration" value="config/midi/controllers/djtt/midifighter/MIDIFighterConfig.xml" />		
+		
+		<property name="midiControllerPath" value="midi/controllers/akai/lpd8/"/>
+		<property name="midiControllerName" value="LPD8FXScene" />
+		<property name="xmlConfiguration" value="config/midi/controllers/akai/lpd8/LPD8Config.xml" />
+		
+		<property name="midiControllerPath" value="midi/controllers/novation/launchpad/"/>
+		<property name="midiControllerName" value="LaunchpadSFXScene" />
+		<property name="xmlConfiguration" value="config/midi/controllers/novation/launchpad/LaunchpadSConfig.xml" />
+		
+ 		<property name="midiControllerPath" value="midi/controllers/adafruit/circuitplayground/"/>
+		<property name="midiControllerName" value="CircuitPlaygroundFXScene" />	
+		<property name="xmlConfiguration" value="config/midi/controllers/adafruit/circuitplayground/CircuitPlaygroundConfig.xml" />		
+		<property name="appHeight" value="650" />			
+		<property name="appWidth" value="775" />				
+ 		-->
+	</bean>
+	
+	<bean id="midiControllerDefMgr" class="com.tntdjs.midi.controllers.MidiControllerDefMgr">
+		<property name="midiControllerDef" ref="midiControllerDef" />
+	</bean> 
+  	  	
+</beans>

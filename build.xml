@@ -1,0 +1,26 @@
+<project name="MidiControllerStandalone" default="default" basedir="."
+	xmlns:ivy="antlib:org.apache.ivy.ant" >
+	<description>MidiControllerStandalone Default build script</description>
+
+	<property name="libary-name" value="Utils"/>
+	<property name="main-class" value=""/>
+
+	<import file="../utils/build-common.xml"/>
+	<!-- include file="../utils/build-common.xml"/ -->
+	<ant antfile="../utils/build-common.xml" inheritAll="true" inheritRefs="true" />
+
+	<property name="jarfile" value="MidiControllerStandalone-TNT-"/>
+
+	<target name="default">
+		<antcall target="dist" />
+	</target>
+
+	<!-- =================================
+	          target: resolve
+     ================================= -->
+	<target name="resolve" description="--> retrieve dependencies with Ivy">
+	    <ivy:retrieve/>
+		<ivy:repreport xml="true" graph="true" />
+	</target>
+	
+</project>

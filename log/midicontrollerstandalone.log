@@ -1,0 +1,279 @@
+16:05:37.639 [main] INFO  com.tms.midicontroller.standalone.StandaloneApp - MidiControllerStandaloneApp :: application starting up...
+16:05:37.734 [main] INFO  org.springframework.context.support.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@27462a88: startup date [Fri Feb 09 16:05:37 EST 2018]; root of context hierarchy
+16:05:37.845 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring-config.xml]
+16:05:46.286 [main] INFO  com.tms.midicontroller.standalone.StandaloneApp - MidiControllerStandaloneApp :: application starting up...
+16:05:46.368 [main] INFO  org.springframework.context.support.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@27462a88: startup date [Fri Feb 09 16:05:46 EST 2018]; root of context hierarchy
+16:05:46.442 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring-config.xml]
+16:05:46.744 [main] INFO  com.tms.midicontroller.standalone.StandaloneApp - InitUI
+16:05:47.100 [main] INFO  com.tms.midicontroller.standalone.StandalondFrame - Create JFrame
+16:05:47.582 [main] INFO  com.tms.midicontroller.standalone.StandaloneApp - InitMidi
+16:05:47.588 [main] INFO  com.tms.midi.controllers.data.config.MidiDeviceXMLHelper - 
+Current Controller is: midi/controllers/akai/lpd8/LPD8FXScene
+XML Configuration is:config/midi/controllers/akai/lpd8/LPD8Config.xml
+16:05:47.588 [main] INFO  com.tms.midi.controllers.data.config.MidiDeviceXMLHelper - MIDI XML device configuration file [config/midi/controllers/akai/lpd8/LPD8Config.xml] - exists? true
+16:05:52.426 [main] INFO  com.tms.midi.controllers.AbstractMidiDeviceHandler - Midi Controller Initializing...
+16:06:00.218 [main] INFO  com.tms.midi.controllers.AbstractMidiDeviceHandler - Midi Ctlrs Device(s)[Gervill] for LPD8
+16:06:00.218 [main] INFO  com.tms.midi.controllers.AbstractMidiDeviceHandler - Midi Ctlrs Device(s)[LoopBe Internal MIDI] for LPD8
+16:06:00.218 [main] INFO  com.tms.midi.controllers.AbstractMidiDeviceHandler - Midi Ctlrs Device(s)[Automap MIDI] for LPD8
+16:06:00.218 [main] INFO  com.tms.midi.controllers.AbstractMidiDeviceHandler - Midi Ctlrs Device(s)[Automap HUI] for LPD8
+16:06:00.218 [main] INFO  com.tms.midi.controllers.AbstractMidiDeviceHandler - Midi Ctlrs Device(s)[Automap Propellerhead Mixer] for LPD8
+16:06:00.219 [main] INFO  com.tms.midi.controllers.AbstractMidiDeviceHandler - Midi Ctlrs Device(s)[Automap Propellerhead] for LPD8
+16:06:00.219 [main] INFO  com.tms.midi.controllers.AbstractMidiDeviceHandler - Midi Ctlrs Device(s)[LPD8] for LPD8
+16:06:00.221 [main] INFO  com.tms.midi.controllers.AbstractMidiDeviceHandler - Midi Ctlrs(LPD8) for LPD8
+16:06:00.236 [main] INFO  com.tms.midi.controllers.AbstractMidiDeviceHandler - LPD8 Was Opened
+16:06:00.236 [main] INFO  com.tms.midi.controllers.AbstractMidiDeviceHandler - Midi Ctlrs Device(s)[Microsoft MIDI Mapper] for LPD8
+16:06:00.236 [main] INFO  com.tms.midi.controllers.AbstractMidiDeviceHandler - Midi Ctlrs Device(s)[Microsoft GS Wavetable Synth] for LPD8
+16:06:00.237 [main] INFO  com.tms.midi.controllers.AbstractMidiDeviceHandler - Midi Ctlrs Device(s)[LoopBe Internal MIDI] for LPD8
+16:06:00.237 [main] INFO  com.tms.midi.controllers.AbstractMidiDeviceHandler - Midi Ctlrs Device(s)[Automap MIDI] for LPD8
+16:06:00.237 [main] INFO  com.tms.midi.controllers.AbstractMidiDeviceHandler - Midi Ctlrs Device(s)[Automap HUI] for LPD8
+16:06:00.237 [main] INFO  com.tms.midi.controllers.AbstractMidiDeviceHandler - Midi Ctlrs Device(s)[Automap Propellerhead Mixer] for LPD8
+16:06:00.238 [main] INFO  com.tms.midi.controllers.AbstractMidiDeviceHandler - Midi Ctlrs Device(s)[Automap Propellerhead] for LPD8
+16:06:00.238 [main] INFO  com.tms.midi.controllers.AbstractMidiDeviceHandler - Midi Ctlrs Device(s)[LPD8] for LPD8
+16:06:00.241 [main] INFO  com.tms.midi.controllers.AbstractMidiDeviceHandler - Midi Ctlrs(LPD8) for LPD8
+16:06:00.245 [main] ERROR com.tms.midi.controllers.AbstractMidiDeviceHandler - Error Aquiring Midi Device
+javax.sound.midi.MidiUnavailableException: MIDI OUT transmitter not available
+	at com.sun.media.sound.AbstractMidiDevice.createTransmitter(AbstractMidiDevice.java:456) ~[?:1.8.0_121]
+	at com.sun.media.sound.AbstractMidiDevice.getTransmitter(AbstractMidiDevice.java:309) ~[?:1.8.0_121]
+	at com.tms.midi.controllers.AbstractMidiDeviceHandler.initMidi(AbstractMidiDeviceHandler.java:84) [bin/:?]
+	at com.tms.midicontroller.standalone.StandaloneApp.initMidi(StandaloneApp.java:75) [bin/:?]
+	at com.tms.midicontroller.standalone.StandaloneApp.<init>(StandaloneApp.java:49) [bin/:?]
+	at com.tms.midicontroller.standalone.StandaloneApp.main(StandaloneApp.java:103) [bin/:?]
+16:06:00.257 [main] INFO  com.tms.midi.controllers.AbstractMidiDeviceHandler - Midi Ctlrs Device(s)[Real Time Sequencer] for LPD8
+16:06:00.276 [main] INFO  com.tms.midi.executer.ExecuterFactory - button-pad1::::0::os::key::true:: button is enabled [true]
+16:06:00.288 [main] INFO  com.tms.midi.executer.ExecuterFactory - button-pad2::::1::os::cmd::true:: button is enabled [true]
+16:06:00.292 [main] INFO  com.tms.midi.executer.ExecuterFactory - button-pad3::::2::os::cmd::true:: button is enabled [true]
+16:06:00.294 [main] INFO  com.tms.midi.executer.ExecuterFactory - button-pad4::::3::audio::play::false:: button is enabled [false]
+16:06:00.294 [main] INFO  com.tms.midi.executer.ExecuterFactory - button-pad5::::4::audio::play::false:: button is enabled [false]
+16:06:00.294 [main] INFO  com.tms.midi.executer.ExecuterFactory - button-pad6::::5::audio::play::false:: button is enabled [false]
+16:06:00.294 [main] INFO  com.tms.midi.executer.ExecuterFactory - button-pad7::::6::audio::play::false:: button is enabled [false]
+16:06:00.295 [main] INFO  com.tms.midi.executer.ExecuterFactory - button-pad8::::7::audio::play::false:: button is enabled [false]
+16:06:00.304 [main] INFO  org.springframework.context.support.ClassPathXmlApplicationContext - Closing org.springframework.context.support.ClassPathXmlApplicationContext@27462a88: startup date [Fri Feb 09 16:05:46 EST 2018]; root of context hierarchy
+16:24:02.069 [main] INFO  com.tms.midicontroller.standalone.StandaloneApp - MidiControllerStandaloneApp :: application starting up...
+16:24:02.154 [main] INFO  org.springframework.context.support.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@27462a88: startup date [Fri Feb 09 16:24:02 EST 2018]; root of context hierarchy
+16:24:02.260 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring-config.xml]
+16:24:02.507 [main] INFO  com.tms.midicontroller.standalone.StandaloneApp - InitUI
+16:24:02.704 [main] INFO  com.tms.midicontroller.standalone.StandalondFrame - Create JFrame
+16:24:03.064 [main] INFO  com.tms.midicontroller.standalone.StandaloneApp - InitMidi
+16:24:03.070 [main] INFO  com.tms.midi.controllers.data.config.MidiDeviceXMLHelper - 
+Current Controller is: midi/controllers/akai/lpd8/LPD8FXScene
+XML Configuration is:config/midi/controllers/akai/lpd8/LPD8Config.xml
+16:24:03.070 [main] INFO  com.tms.midi.controllers.data.config.MidiDeviceXMLHelper - MIDI XML device configuration file [config/midi/controllers/akai/lpd8/LPD8Config.xml] - exists? true
+16:24:03.221 [main] INFO  com.tms.midi.controllers.AbstractMidiDeviceHandler - Midi Controller Initializing...
+16:24:03.298 [main] INFO  com.tms.midi.controllers.AbstractMidiDeviceHandler - Midi Ctlrs Device(s)[Gervill] for LPD8
+16:24:03.298 [main] INFO  com.tms.midi.controllers.AbstractMidiDeviceHandler - Midi Ctlrs Device(s)[LoopBe Internal MIDI] for LPD8
+16:24:03.299 [main] INFO  com.tms.midi.controllers.AbstractMidiDeviceHandler - Midi Ctlrs Device(s)[Automap MIDI] for LPD8
+16:24:03.299 [main] INFO  com.tms.midi.controllers.AbstractMidiDeviceHandler - Midi Ctlrs Device(s)[Automap HUI] for LPD8
+16:24:03.299 [main] INFO  com.tms.midi.controllers.AbstractMidiDeviceHandler - Midi Ctlrs Device(s)[Automap Propellerhead Mixer] for LPD8
+16:24:03.299 [main] INFO  com.tms.midi.controllers.AbstractMidiDeviceHandler - Midi Ctlrs Device(s)[Automap Propellerhead] for LPD8
+16:24:03.299 [main] INFO  com.tms.midi.controllers.AbstractMidiDeviceHandler - Midi Ctlrs Device(s)[LPD8] for LPD8
+16:24:03.301 [main] INFO  com.tms.midi.controllers.AbstractMidiDeviceHandler - Midi Ctlrs(LPD8) for LPD8
+16:24:03.312 [main] INFO  com.tms.midi.controllers.AbstractMidiDeviceHandler - LPD8 Was Opened
+16:24:07.144 [main] INFO  com.tms.midi.controllers.AbstractMidiDeviceHandler - Midi Ctlrs Device(s)[Microsoft MIDI Mapper] for LPD8
+16:24:07.144 [main] INFO  com.tms.midi.controllers.AbstractMidiDeviceHandler - Midi Ctlrs Device(s)[Microsoft GS Wavetable Synth] for LPD8
+16:24:07.144 [main] INFO  com.tms.midi.controllers.AbstractMidiDeviceHandler - Midi Ctlrs Device(s)[LoopBe Internal MIDI] for LPD8
+16:24:07.145 [main] INFO  com.tms.midi.controllers.AbstractMidiDeviceHandler - Midi Ctlrs Device(s)[Automap MIDI] for LPD8
+16:24:07.145 [main] INFO  com.tms.midi.controllers.AbstractMidiDeviceHandler - Midi Ctlrs Device(s)[Automap HUI] for LPD8
+16:24:07.145 [main] INFO  com.tms.midi.controllers.AbstractMidiDeviceHandler - Midi Ctlrs Device(s)[Automap Propellerhead Mixer] for LPD8
+16:24:07.145 [main] INFO  com.tms.midi.controllers.AbstractMidiDeviceHandler - Midi Ctlrs Device(s)[Automap Propellerhead] for LPD8
+16:24:07.146 [main] INFO  com.tms.midi.controllers.AbstractMidiDeviceHandler - Midi Ctlrs Device(s)[LPD8] for LPD8
+16:24:07.148 [main] INFO  com.tms.midi.controllers.AbstractMidiDeviceHandler - Midi Ctlrs(LPD8) for LPD8
+16:24:07.151 [main] ERROR com.tms.midi.controllers.AbstractMidiDeviceHandler - Error Aquiring Midi Device
+javax.sound.midi.MidiUnavailableException: MIDI OUT transmitter not available
+	at com.sun.media.sound.AbstractMidiDevice.createTransmitter(AbstractMidiDevice.java:456) ~[?:1.8.0_121]
+	at com.sun.media.sound.AbstractMidiDevice.getTransmitter(AbstractMidiDevice.java:309) ~[?:1.8.0_121]
+	at com.tms.midi.controllers.AbstractMidiDeviceHandler.initMidi(AbstractMidiDeviceHandler.java:84) [bin/:?]
+	at com.tms.midicontroller.standalone.StandaloneApp.initMidi(StandaloneApp.java:75) [bin/:?]
+	at com.tms.midicontroller.standalone.StandaloneApp.<init>(StandaloneApp.java:49) [bin/:?]
+	at com.tms.midicontroller.standalone.StandaloneApp.main(StandaloneApp.java:103) [bin/:?]
+16:24:07.161 [main] INFO  com.tms.midi.controllers.AbstractMidiDeviceHandler - Midi Ctlrs Device(s)[Real Time Sequencer] for LPD8
+16:24:07.173 [main] INFO  com.tms.midi.executer.ExecuterFactory - button-pad1::::0::os::key::true:: button is enabled [true]
+16:24:07.193 [main] INFO  com.tms.midi.executer.ExecuterFactory - button-pad2::::1::os::cmd::true:: button is enabled [true]
+16:24:07.200 [main] INFO  com.tms.midi.executer.ExecuterFactory - button-pad3::::2::os::cmd::true:: button is enabled [true]
+16:24:07.201 [main] INFO  com.tms.midi.executer.ExecuterFactory - button-pad4::::3::audio::play::false:: button is enabled [false]
+16:24:07.201 [main] INFO  com.tms.midi.executer.ExecuterFactory - button-pad5::::4::audio::play::false:: button is enabled [false]
+16:24:07.201 [main] INFO  com.tms.midi.executer.ExecuterFactory - button-pad6::::5::audio::play::false:: button is enabled [false]
+16:24:07.203 [main] INFO  com.tms.midi.executer.ExecuterFactory - button-pad7::::6::audio::play::false:: button is enabled [false]
+16:24:07.203 [main] INFO  com.tms.midi.executer.ExecuterFactory - button-pad8::::7::audio::play::false:: button is enabled [false]
+16:24:07.210 [main] INFO  org.springframework.context.support.ClassPathXmlApplicationContext - Closing org.springframework.context.support.ClassPathXmlApplicationContext@27462a88: startup date [Fri Feb 09 16:24:02 EST 2018]; root of context hierarchy
+16:25:04.774 [Java Sound MidiInDevice Thread] ERROR com.tms.midi.executer.CommandExecuter - Error launching external program.
+java.io.IOException: Cannot run program "d:": CreateProcess error=5, Access is denied
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048) ~[?:1.8.0_121]
+	at java.lang.Runtime.exec(Runtime.java:620) ~[?:1.8.0_121]
+	at java.lang.Runtime.exec(Runtime.java:450) ~[?:1.8.0_121]
+	at java.lang.Runtime.exec(Runtime.java:347) ~[?:1.8.0_121]
+	at com.tms.midi.executer.CommandExecuter.executer(CommandExecuter.java:39) [bin/:?]
+	at com.tms.midi.controllers.MIDIInputReceiver.send(MIDIInputReceiver.java:42) [bin/:?]
+	at com.sun.media.sound.AbstractMidiDevice$TransmitterList.sendMessage(AbstractMidiDevice.java:679) [?:1.8.0_121]
+	at com.sun.media.sound.MidiInDevice.callbackShortMessage(MidiInDevice.java:172) [?:1.8.0_121]
+	at com.sun.media.sound.MidiInDevice.nGetMessages(Native Method) [?:1.8.0_121]
+	at com.sun.media.sound.MidiInDevice.run(MidiInDevice.java:140) [?:1.8.0_121]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_121]
+Caused by: java.io.IOException: CreateProcess error=5, Access is denied
+	at java.lang.ProcessImpl.create(Native Method) ~[?:1.8.0_121]
+	at java.lang.ProcessImpl.<init>(ProcessImpl.java:386) ~[?:1.8.0_121]
+	at java.lang.ProcessImpl.start(ProcessImpl.java:137) ~[?:1.8.0_121]
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029) ~[?:1.8.0_121]
+	... 10 more
+16:25:45.475 [main] INFO  com.tms.midicontroller.standalone.StandaloneApp - MidiControllerStandaloneApp :: application starting up...
+16:25:45.561 [main] INFO  org.springframework.context.support.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@27462a88: startup date [Fri Feb 09 16:25:45 EST 2018]; root of context hierarchy
+16:25:45.646 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring-config.xml]
+16:25:45.922 [main] INFO  com.tms.midicontroller.standalone.StandaloneApp - InitUI
+16:25:46.130 [main] INFO  com.tms.midicontroller.standalone.StandalondFrame - Create JFrame
+16:25:46.543 [main] INFO  com.tms.midicontroller.standalone.StandaloneApp - InitMidi
+16:25:46.548 [main] INFO  com.tms.midi.controllers.data.config.MidiDeviceXMLHelper - 
+Current Controller is: midi/controllers/akai/lpd8/LPD8FXScene
+XML Configuration is:config/midi/controllers/akai/lpd8/LPD8Config.xml
+16:25:46.549 [main] INFO  com.tms.midi.controllers.data.config.MidiDeviceXMLHelper - MIDI XML device configuration file [config/midi/controllers/akai/lpd8/LPD8Config.xml] - exists? true
+16:25:46.726 [main] INFO  com.tms.midi.controllers.AbstractMidiDeviceHandler - Midi Controller Initializing...
+16:25:46.823 [main] INFO  com.tms.midi.controllers.AbstractMidiDeviceHandler - Midi Ctlrs Device(s)[Gervill] for LPD8
+16:25:46.823 [main] INFO  com.tms.midi.controllers.AbstractMidiDeviceHandler - Midi Ctlrs Device(s)[LoopBe Internal MIDI] for LPD8
+16:25:46.823 [main] INFO  com.tms.midi.controllers.AbstractMidiDeviceHandler - Midi Ctlrs Device(s)[Automap MIDI] for LPD8
+16:25:46.823 [main] INFO  com.tms.midi.controllers.AbstractMidiDeviceHandler - Midi Ctlrs Device(s)[Automap HUI] for LPD8
+16:25:46.824 [main] INFO  com.tms.midi.controllers.AbstractMidiDeviceHandler - Midi Ctlrs Device(s)[Automap Propellerhead Mixer] for LPD8
+16:25:46.824 [main] INFO  com.tms.midi.controllers.AbstractMidiDeviceHandler - Midi Ctlrs Device(s)[Automap Propellerhead] for LPD8
+16:25:46.824 [main] INFO  com.tms.midi.controllers.AbstractMidiDeviceHandler - Midi Ctlrs Device(s)[LPD8] for LPD8
+16:25:46.826 [main] INFO  com.tms.midi.controllers.AbstractMidiDeviceHandler - Midi Ctlrs(LPD8) for LPD8
+16:25:46.838 [main] INFO  com.tms.midi.controllers.AbstractMidiDeviceHandler - LPD8 Was Opened
+16:25:46.839 [main] INFO  com.tms.midi.controllers.AbstractMidiDeviceHandler - Midi Ctlrs Device(s)[Microsoft MIDI Mapper] for LPD8
+16:25:46.840 [main] INFO  com.tms.midi.controllers.AbstractMidiDeviceHandler - Midi Ctlrs Device(s)[Microsoft GS Wavetable Synth] for LPD8
+16:25:46.840 [main] INFO  com.tms.midi.controllers.AbstractMidiDeviceHandler - Midi Ctlrs Device(s)[LoopBe Internal MIDI] for LPD8
+16:25:46.840 [main] INFO  com.tms.midi.controllers.AbstractMidiDeviceHandler - Midi Ctlrs Device(s)[Automap MIDI] for LPD8
+16:25:46.841 [main] INFO  com.tms.midi.controllers.AbstractMidiDeviceHandler - Midi Ctlrs Device(s)[Automap HUI] for LPD8
+16:25:46.841 [main] INFO  com.tms.midi.controllers.AbstractMidiDeviceHandler - Midi Ctlrs Device(s)[Automap Propellerhead Mixer] for LPD8
+16:25:46.841 [main] INFO  com.tms.midi.controllers.AbstractMidiDeviceHandler - Midi Ctlrs Device(s)[Automap Propellerhead] for LPD8
+16:25:46.841 [main] INFO  com.tms.midi.controllers.AbstractMidiDeviceHandler - Midi Ctlrs Device(s)[LPD8] for LPD8
+16:25:46.847 [main] INFO  com.tms.midi.controllers.AbstractMidiDeviceHandler - Midi Ctlrs(LPD8) for LPD8
+16:25:46.848 [main] ERROR com.tms.midi.controllers.AbstractMidiDeviceHandler - Error Aquiring Midi Device
+javax.sound.midi.MidiUnavailableException: MIDI OUT transmitter not available
+	at com.sun.media.sound.AbstractMidiDevice.createTransmitter(AbstractMidiDevice.java:456) ~[?:1.8.0_121]
+	at com.sun.media.sound.AbstractMidiDevice.getTransmitter(AbstractMidiDevice.java:309) ~[?:1.8.0_121]
+	at com.tms.midi.controllers.AbstractMidiDeviceHandler.initMidi(AbstractMidiDeviceHandler.java:84) [bin/:?]
+	at com.tms.midicontroller.standalone.StandaloneApp.initMidi(StandaloneApp.java:75) [bin/:?]
+	at com.tms.midicontroller.standalone.StandaloneApp.<init>(StandaloneApp.java:49) [bin/:?]
+	at com.tms.midicontroller.standalone.StandaloneApp.main(StandaloneApp.java:103) [bin/:?]
+16:25:46.859 [main] INFO  com.tms.midi.controllers.AbstractMidiDeviceHandler - Midi Ctlrs Device(s)[Real Time Sequencer] for LPD8
+16:25:46.868 [main] INFO  com.tms.midi.executer.ExecuterFactory - button-pad1::::0::os::key::true:: button is enabled [true]
+16:25:46.880 [main] INFO  com.tms.midi.executer.ExecuterFactory - button-pad2::::1::os::cmd::true:: button is enabled [true]
+16:25:46.883 [main] INFO  com.tms.midi.executer.ExecuterFactory - button-pad3::::2::os::cmd::true:: button is enabled [true]
+16:25:46.883 [main] INFO  com.tms.midi.executer.ExecuterFactory - button-pad4::::3::audio::play::false:: button is enabled [false]
+16:25:46.884 [main] INFO  com.tms.midi.executer.ExecuterFactory - button-pad5::::4::audio::play::false:: button is enabled [false]
+16:25:46.884 [main] INFO  com.tms.midi.executer.ExecuterFactory - button-pad6::::5::audio::play::false:: button is enabled [false]
+16:25:46.884 [main] INFO  com.tms.midi.executer.ExecuterFactory - button-pad7::::6::audio::play::false:: button is enabled [false]
+16:25:46.884 [main] INFO  com.tms.midi.executer.ExecuterFactory - button-pad8::::7::audio::play::false:: button is enabled [false]
+16:25:46.889 [main] INFO  org.springframework.context.support.ClassPathXmlApplicationContext - Closing org.springframework.context.support.ClassPathXmlApplicationContext@27462a88: startup date [Fri Feb 09 16:25:45 EST 2018]; root of context hierarchy
+16:32:10.115 [main] INFO  com.tms.midicontroller.standalone.StandaloneApp - MidiControllerStandaloneApp :: application starting up...
+16:32:10.190 [main] INFO  org.springframework.context.support.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@27462a88: startup date [Fri Feb 09 16:32:10 EST 2018]; root of context hierarchy
+16:32:10.292 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring-config.xml]
+16:32:10.625 [main] INFO  com.tms.midicontroller.standalone.StandaloneApp - InitUI
+16:32:10.857 [main] INFO  com.tms.midicontroller.standalone.StandalondFrame - Create JFrame
+16:32:11.240 [main] INFO  com.tms.midicontroller.standalone.StandaloneApp - InitMidi
+16:32:11.244 [main] INFO  com.tms.midi.controllers.data.config.MidiDeviceXMLHelper - 
+Current Controller is: midi/controllers/akai/lpd8/LPD8FXScene
+XML Configuration is:config/midi/controllers/akai/lpd8/LPD8Config.xml
+16:32:11.245 [main] INFO  com.tms.midi.controllers.data.config.MidiDeviceXMLHelper - MIDI XML device configuration file [config/midi/controllers/akai/lpd8/LPD8Config.xml] - exists? true
+16:32:11.387 [main] INFO  com.tms.midi.controllers.AbstractMidiDeviceHandler - Midi Controller Initializing...
+16:32:11.485 [main] INFO  com.tms.midi.controllers.AbstractMidiDeviceHandler - Midi Ctlrs Device(s)[Gervill] for LPD8
+16:32:11.486 [main] INFO  com.tms.midi.controllers.AbstractMidiDeviceHandler - Midi Ctlrs Device(s)[LoopBe Internal MIDI] for LPD8
+16:32:11.486 [main] INFO  com.tms.midi.controllers.AbstractMidiDeviceHandler - Midi Ctlrs Device(s)[Automap MIDI] for LPD8
+16:32:11.486 [main] INFO  com.tms.midi.controllers.AbstractMidiDeviceHandler - Midi Ctlrs Device(s)[Automap HUI] for LPD8
+16:32:11.486 [main] INFO  com.tms.midi.controllers.AbstractMidiDeviceHandler - Midi Ctlrs Device(s)[Automap Propellerhead Mixer] for LPD8
+16:32:11.486 [main] INFO  com.tms.midi.controllers.AbstractMidiDeviceHandler - Midi Ctlrs Device(s)[Automap Propellerhead] for LPD8
+16:32:11.486 [main] INFO  com.tms.midi.controllers.AbstractMidiDeviceHandler - Midi Ctlrs Device(s)[LPD8] for LPD8
+16:32:11.488 [main] INFO  com.tms.midi.controllers.AbstractMidiDeviceHandler - Midi Ctlrs(LPD8) for LPD8
+16:32:11.495 [main] INFO  com.tms.midi.controllers.AbstractMidiDeviceHandler - LPD8 Was Opened
+16:32:11.495 [main] INFO  com.tms.midi.controllers.AbstractMidiDeviceHandler - Midi Ctlrs Device(s)[Microsoft MIDI Mapper] for LPD8
+16:32:11.496 [main] INFO  com.tms.midi.controllers.AbstractMidiDeviceHandler - Midi Ctlrs Device(s)[Microsoft GS Wavetable Synth] for LPD8
+16:32:11.496 [main] INFO  com.tms.midi.controllers.AbstractMidiDeviceHandler - Midi Ctlrs Device(s)[LoopBe Internal MIDI] for LPD8
+16:32:11.496 [main] INFO  com.tms.midi.controllers.AbstractMidiDeviceHandler - Midi Ctlrs Device(s)[Automap MIDI] for LPD8
+16:32:11.496 [main] INFO  com.tms.midi.controllers.AbstractMidiDeviceHandler - Midi Ctlrs Device(s)[Automap HUI] for LPD8
+16:32:11.497 [main] INFO  com.tms.midi.controllers.AbstractMidiDeviceHandler - Midi Ctlrs Device(s)[Automap Propellerhead Mixer] for LPD8
+16:32:11.497 [main] INFO  com.tms.midi.controllers.AbstractMidiDeviceHandler - Midi Ctlrs Device(s)[Automap Propellerhead] for LPD8
+16:32:11.497 [main] INFO  com.tms.midi.controllers.AbstractMidiDeviceHandler - Midi Ctlrs Device(s)[LPD8] for LPD8
+16:32:11.499 [main] INFO  com.tms.midi.controllers.AbstractMidiDeviceHandler - Midi Ctlrs(LPD8) for LPD8
+16:32:11.502 [main] ERROR com.tms.midi.controllers.AbstractMidiDeviceHandler - Error Aquiring Midi Device
+javax.sound.midi.MidiUnavailableException: MIDI OUT transmitter not available
+	at com.sun.media.sound.AbstractMidiDevice.createTransmitter(AbstractMidiDevice.java:456) ~[?:1.8.0_121]
+	at com.sun.media.sound.AbstractMidiDevice.getTransmitter(AbstractMidiDevice.java:309) ~[?:1.8.0_121]
+	at com.tms.midi.controllers.AbstractMidiDeviceHandler.initMidi(AbstractMidiDeviceHandler.java:84) [bin/:?]
+	at com.tms.midicontroller.standalone.StandaloneApp.initMidi(StandaloneApp.java:75) [bin/:?]
+	at com.tms.midicontroller.standalone.StandaloneApp.<init>(StandaloneApp.java:49) [bin/:?]
+	at com.tms.midicontroller.standalone.StandaloneApp.main(StandaloneApp.java:103) [bin/:?]
+16:32:11.512 [main] INFO  com.tms.midi.controllers.AbstractMidiDeviceHandler - Midi Ctlrs Device(s)[Real Time Sequencer] for LPD8
+16:32:11.517 [main] INFO  com.tms.midi.executer.ExecuterFactory - button-pad1::::0::os::key::true:: button is enabled [true]
+16:32:11.527 [main] INFO  com.tms.midi.executer.ExecuterFactory - button-pad1::::1::os::key::true:: button is enabled [true]
+16:32:11.528 [main] INFO  com.tms.midi.executer.ExecuterFactory - button-pad2::::2::os::cmd::true:: button is enabled [true]
+16:32:11.530 [main] INFO  com.tms.midi.executer.ExecuterFactory - button-pad4::::3::audio::play::false:: button is enabled [false]
+16:32:11.530 [main] INFO  com.tms.midi.executer.ExecuterFactory - button-pad5::::4::audio::play::false:: button is enabled [false]
+16:32:11.530 [main] INFO  com.tms.midi.executer.ExecuterFactory - button-pad6::::5::audio::play::false:: button is enabled [false]
+16:32:11.531 [main] INFO  com.tms.midi.executer.ExecuterFactory - button-pad7::::6::audio::play::false:: button is enabled [false]
+16:32:11.531 [main] INFO  com.tms.midi.executer.ExecuterFactory - button-pad8::::7::audio::play::false:: button is enabled [false]
+16:32:11.536 [main] INFO  org.springframework.context.support.ClassPathXmlApplicationContext - Closing org.springframework.context.support.ClassPathXmlApplicationContext@27462a88: startup date [Fri Feb 09 16:32:10 EST 2018]; root of context hierarchy
+22:02:30.127 [AWT-EventQueue-0] INFO  com.tms.midicontroller.standalone.StandaloneApp - Application Exited Safely
+16:09:35.227 [main] INFO  com.tms.midicontroller.standalone.StandaloneApp - MidiControllerStandaloneApp :: application starting up...
+16:09:35.389 [main] INFO  org.springframework.context.support.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@33cb5951: startup date [Thu Mar 15 16:09:35 EDT 2018]; root of context hierarchy
+16:09:35.560 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring-config.xml]
+16:09:36.044 [main] INFO  com.tms.midicontroller.standalone.StandaloneApp - InitUI
+16:09:36.453 [main] INFO  com.tms.midicontroller.standalone.StandalondFrame - Create JFrame
+16:09:37.059 [main] INFO  com.tms.midicontroller.standalone.StandaloneApp - InitMidi
+16:09:37.066 [main] INFO  com.tms.midi.controllers.data.config.MidiDeviceXMLHelper - 
+Current Controller is: midi/controllers/akai/lpd8/LPD8FXScene
+XML Configuration is:../config/config/midi/controllers/akai/lpd8/LPD8Config.xml
+16:09:37.067 [main] INFO  com.tms.midi.controllers.data.config.MidiDeviceXMLHelper - MIDI XML device configuration file [../config/config/midi/controllers/akai/lpd8/LPD8Config.xml] - exists? true
+16:09:37.254 [main] INFO  com.tms.midi.controllers.AbstractMidiDeviceHandler - Midi Controller Initializing...
+16:09:37.401 [main] INFO  com.tms.midi.controllers.AbstractMidiDeviceHandler - Midi Ctlrs Device(s)[Gervill] for LPD8
+16:09:37.401 [main] INFO  com.tms.midi.controllers.AbstractMidiDeviceHandler - Midi Ctlrs Device(s)[LoopBe Internal MIDI] for LPD8
+16:09:37.401 [main] INFO  com.tms.midi.controllers.AbstractMidiDeviceHandler - Midi Ctlrs Device(s)[Automap MIDI] for LPD8
+16:09:37.402 [main] INFO  com.tms.midi.controllers.AbstractMidiDeviceHandler - Midi Ctlrs Device(s)[Automap HUI] for LPD8
+16:09:37.402 [main] INFO  com.tms.midi.controllers.AbstractMidiDeviceHandler - Midi Ctlrs Device(s)[Automap Propellerhead Mixer] for LPD8
+16:09:37.402 [main] INFO  com.tms.midi.controllers.AbstractMidiDeviceHandler - Midi Ctlrs Device(s)[Automap Propellerhead] for LPD8
+16:09:37.402 [main] INFO  com.tms.midi.controllers.AbstractMidiDeviceHandler - Midi Ctlrs Device(s)[Microsoft MIDI Mapper] for LPD8
+16:09:37.402 [main] INFO  com.tms.midi.controllers.AbstractMidiDeviceHandler - Midi Ctlrs Device(s)[Microsoft GS Wavetable Synth] for LPD8
+16:09:37.402 [main] INFO  com.tms.midi.controllers.AbstractMidiDeviceHandler - Midi Ctlrs Device(s)[LoopBe Internal MIDI] for LPD8
+16:09:37.402 [main] INFO  com.tms.midi.controllers.AbstractMidiDeviceHandler - Midi Ctlrs Device(s)[Automap MIDI] for LPD8
+16:09:37.403 [main] INFO  com.tms.midi.controllers.AbstractMidiDeviceHandler - Midi Ctlrs Device(s)[Automap HUI] for LPD8
+16:09:37.403 [main] INFO  com.tms.midi.controllers.AbstractMidiDeviceHandler - Midi Ctlrs Device(s)[Automap Propellerhead Mixer] for LPD8
+16:09:37.403 [main] INFO  com.tms.midi.controllers.AbstractMidiDeviceHandler - Midi Ctlrs Device(s)[Automap Propellerhead] for LPD8
+16:09:37.403 [main] INFO  com.tms.midi.controllers.AbstractMidiDeviceHandler - Midi Ctlrs Device(s)[Real Time Sequencer] for LPD8
+16:09:37.414 [main] INFO  com.tms.midi.executer.ExecuterFactory - button-pad1::::0::bridge::midicc::true:: button is enabled [true]
+16:09:37.422 [main] INFO  com.tms.midi.executer.ExecuterFactory - button-pad2::::1::bridge::midicc::true:: button is enabled [true]
+16:09:37.422 [main] INFO  com.tms.midi.executer.ExecuterFactory - button-pad3::::2::bridge::midicc::true:: button is enabled [true]
+16:09:37.423 [main] INFO  com.tms.midi.executer.ExecuterFactory - button-pad4::::3::bridge::midicc::true:: button is enabled [true]
+16:09:37.423 [main] INFO  com.tms.midi.executer.ExecuterFactory - button-pad5::::4::bridge::midicc::true:: button is enabled [true]
+16:09:37.423 [main] INFO  com.tms.midi.executer.ExecuterFactory - button-pad6::::5::bridge::midicc::true:: button is enabled [true]
+16:09:37.423 [main] INFO  com.tms.midi.executer.ExecuterFactory - button-pad7::::6::bridge::midicc::true:: button is enabled [true]
+16:09:37.424 [main] INFO  com.tms.midi.executer.ExecuterFactory - button-pad8::::7::bridge::midicc::true:: button is enabled [true]
+16:09:37.433 [main] INFO  org.springframework.context.support.ClassPathXmlApplicationContext - Closing org.springframework.context.support.ClassPathXmlApplicationContext@33cb5951: startup date [Thu Mar 15 16:09:35 EDT 2018]; root of context hierarchy
+16:10:25.986 [main] INFO  com.tms.midicontroller.standalone.StandaloneApp - MidiControllerStandaloneApp :: application starting up...
+16:10:26.149 [main] INFO  org.springframework.context.support.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@33cb5951: startup date [Thu Mar 15 16:10:26 EDT 2018]; root of context hierarchy
+16:10:26.404 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring-config.xml]
+16:10:27.649 [main] INFO  com.tms.midicontroller.standalone.StandaloneApp - InitUI
+16:10:28.306 [main] INFO  com.tms.midicontroller.standalone.StandalondFrame - Create JFrame
+16:10:29.241 [main] INFO  com.tms.midicontroller.standalone.StandaloneApp - InitMidi
+16:10:29.246 [main] INFO  com.tms.midi.controllers.data.config.MidiDeviceXMLHelper - 
+Current Controller is: midi/controllers/akai/lpd8/LPD8FXScene
+XML Configuration is:../config/config/midi/controllers/akai/lpd8/LPD8Config.xml
+16:10:29.247 [main] INFO  com.tms.midi.controllers.data.config.MidiDeviceXMLHelper - MIDI XML device configuration file [../config/config/midi/controllers/akai/lpd8/LPD8Config.xml] - exists? true
+16:10:29.416 [main] INFO  com.tms.midi.controllers.AbstractMidiDeviceHandler - Midi Controller Initializing...
+16:10:29.542 [main] INFO  com.tms.midi.controllers.AbstractMidiDeviceHandler - Midi Ctlrs Device(s)[Gervill] for LPD8
+16:10:29.542 [main] INFO  com.tms.midi.controllers.AbstractMidiDeviceHandler - Midi Ctlrs Device(s)[LoopBe Internal MIDI] for LPD8
+16:10:29.542 [main] INFO  com.tms.midi.controllers.AbstractMidiDeviceHandler - Midi Ctlrs Device(s)[Automap MIDI] for LPD8
+16:10:29.543 [main] INFO  com.tms.midi.controllers.AbstractMidiDeviceHandler - Midi Ctlrs Device(s)[Automap HUI] for LPD8
+16:10:29.544 [main] INFO  com.tms.midi.controllers.AbstractMidiDeviceHandler - Midi Ctlrs Device(s)[Automap Propellerhead Mixer] for LPD8
+16:10:29.544 [main] INFO  com.tms.midi.controllers.AbstractMidiDeviceHandler - Midi Ctlrs Device(s)[Automap Propellerhead] for LPD8
+16:10:29.544 [main] INFO  com.tms.midi.controllers.AbstractMidiDeviceHandler - Midi Ctlrs Device(s)[Microsoft MIDI Mapper] for LPD8
+16:10:29.544 [main] INFO  com.tms.midi.controllers.AbstractMidiDeviceHandler - Midi Ctlrs Device(s)[Microsoft GS Wavetable Synth] for LPD8
+16:10:29.544 [main] INFO  com.tms.midi.controllers.AbstractMidiDeviceHandler - Midi Ctlrs Device(s)[LoopBe Internal MIDI] for LPD8
+16:10:29.544 [main] INFO  com.tms.midi.controllers.AbstractMidiDeviceHandler - Midi Ctlrs Device(s)[Automap MIDI] for LPD8
+16:10:29.545 [main] INFO  com.tms.midi.controllers.AbstractMidiDeviceHandler - Midi Ctlrs Device(s)[Automap HUI] for LPD8
+16:10:29.546 [main] INFO  com.tms.midi.controllers.AbstractMidiDeviceHandler - Midi Ctlrs Device(s)[Automap Propellerhead Mixer] for LPD8
+16:10:29.546 [main] INFO  com.tms.midi.controllers.AbstractMidiDeviceHandler - Midi Ctlrs Device(s)[Automap Propellerhead] for LPD8
+16:10:29.546 [main] INFO  com.tms.midi.controllers.AbstractMidiDeviceHandler - Midi Ctlrs Device(s)[Real Time Sequencer] for LPD8
+16:10:29.559 [main] INFO  com.tms.midi.executer.ExecuterFactory - button-pad1::::0::bridge::midicc::true:: button is enabled [true]
+16:10:29.568 [main] INFO  com.tms.midi.executer.ExecuterFactory - button-pad2::::1::bridge::midicc::true:: button is enabled [true]
+16:10:29.568 [main] INFO  com.tms.midi.executer.ExecuterFactory - button-pad3::::2::bridge::midicc::true:: button is enabled [true]
+16:10:29.568 [main] INFO  com.tms.midi.executer.ExecuterFactory - button-pad4::::3::bridge::midicc::true:: button is enabled [true]
+16:10:29.568 [main] INFO  com.tms.midi.executer.ExecuterFactory - button-pad5::::4::bridge::midicc::true:: button is enabled [true]
+16:10:29.568 [main] INFO  com.tms.midi.executer.ExecuterFactory - button-pad6::::5::bridge::midicc::true:: button is enabled [true]
+16:10:29.568 [main] INFO  com.tms.midi.executer.ExecuterFactory - button-pad7::::6::bridge::midicc::true:: button is enabled [true]
+16:10:29.568 [main] INFO  com.tms.midi.executer.ExecuterFactory - button-pad8::::7::bridge::midicc::true:: button is enabled [true]
+16:10:29.574 [main] INFO  org.springframework.context.support.ClassPathXmlApplicationContext - Closing org.springframework.context.support.ClassPathXmlApplicationContext@33cb5951: startup date [Thu Mar 15 16:10:26 EDT 2018]; root of context hierarchy
